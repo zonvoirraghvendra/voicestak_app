@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>VoiceStak</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-toggle.css" rel="stylesheet">
+        <!-- Custom css -->
+        <link href="assets/css/style.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse main_menu">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Logo</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="main_navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="label label-primary new_msgs">12 NEW</span> INBOX</a></li>
+                        <li class="active"><a href="#">CAMPAIGNS</a></li>
+                        <li><a href="#">REPORTS</a></li>
+                        <li class="profile_pic"></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="container campaign-wizard fields-integration">
+            <div class="row top">
+                <div class="col-sm-9 col-xs-6 top-left">
+                    <h4>Campaign Wizard</h4>
+                </div>
+                <div class="col-sm-3 col-xs-6 top-right">
+                    <button type="button" class="btn btn-primary">Next</button>
+                    <button type="button" class="btn btn-primary">Back</button>
+                </div>
+            </div>
+
+            <div class="row progress-titles">
+                <div class="col-md-3 col-sm-3 col-xs-3 text-center">1.Campaign Details</div>
+                <div class="col-md-3 col-sm-3 col-xs-3 text-center">2.Appearance</div>
+                <div class="col-md-3 col-sm-3 col-xs-3 text-center active-title">3.Form Builder & Integration</div>
+                <div class="col-md-3 col-sm-3 col-xs-3 text-center">4.Embed Code</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                <span class="sr-only">75% Complete (success)</span>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5 col-sm-12 col-xs-12 col-md-push-7">
+                    <h4>Live Preview</h4>
+                    <div class="live_preview"></div>
+                </div>
+
+                <div class="col-md-7 col-sm-12 col-xs-12 col-md-pull-5">
+                    <form class="form-inline">
+                        <h4 class="form-builder">Form Builder</h4>
+                        <div class="row section-title">
+                            <div class="col-md-2 col-sm-2 col-xs-2"></div>
+
+                            <div class="col-md-10 col-sm-10 col-xs-10">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-5 col-xs-5">
+                                        <p><strong>Choose Field(s)</strong></p>
+                                    </div>
+                                    <div class="col-md-5 col-sm-5 col-xs-5">
+                                        <p><strong>Map Fields</strong></p>
+                                    </div>
+                                    <div class="col-md-2 col-sm-2 col-xs-2 required-section">
+                                        <p><strong>Required</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="row">
+                            <div class="form-group col-md-2 col-sm-2 col-xs-2">
+                                <input type="checkbox" checked data-toggle="toggle" data-style="on-off" data-onstyle="warning" data-offstyle="danger">
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10">
+                                <div class="row">
+                                    <div class="form-group col-md-5 col-sm-5 col-xs-5">
+                                        <select class="form-control">
+                                          <option>Full Name/ First / Last</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-5 col-sm-5 col-xs-5">
+                                        <select class="form-control">
+                                          <option>name</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                        </select>
+                                    </div>
+                                    <div class="checkbox col-md-2 col-sm-2 col-xs-2">
+                                        <label>
+                                            <input type="checkbox">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="row">
+                            <div class="form-group col-md-2 col-sm-2 col-xs-2">
+                                <input type="checkbox" data-toggle="toggle" data-style="on-off" data-onstyle="warning" data-offstyle="danger">
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10">
+                                <div class="row">
+                                    <div class="form-group col-md-5 col-sm-5 col-xs-5">
+                                        <input type="text" class="form-control" id="" placeholder="Enter Email Address...">
+                                    </div>
+                                    <div class="form-group col-md-5 col-sm-5 col-xs-5">
+                                        <select class="form-control">
+                                          <option>email</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                        </select>
+                                    </div>
+                                    <div class="checkbox col-md-2 col-sm-2 col-xs-2">
+                                        <label>
+                                            <input type="checkbox">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="row">
+                            <div class="form-group col-md-2 col-sm-2 col-xs-2">
+                                <input type="checkbox" checked data-toggle="toggle" data-style="on-off" data-onstyle="warning" data-offstyle="danger">
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10">
+                                <div class="row">
+                                    <div class="form-group col-md-5 col-sm-5 col-xs-5">
+                                        <input type="text" class="form-control" id="" placeholder="Enter Phone Number...">
+                                    </div>
+                                    <div class="form-group col-md-5 col-sm-5 col-xs-5">
+                                        <select class="form-control">
+                                          <option>phone</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                          <option>5</option>
+                                        </select>
+                                    </div>
+                                    <div class="checkbox col-md-2 col-sm-2  col-xs-2">
+                                        <label>
+                                            <input type="checkbox">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <div class="raw-html">
+
+                            <h4>Email Integration</h4>
+
+                            <div class="form-group">
+                                <select class="form-control">
+                                  <option>Choose Provider</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                </select>
+                            </div>
+
+                            <p><strong>OR</strong></p>
+
+                            <div>
+                                <label for="raw_html_textarea">Copy Raw HTML Form Code</label>
+                                <textarea class="form-control" id="raw_html_textarea" rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="integration row">
+                            <div class="integration-top">
+                                <div class="col-md-6 col-sm-6 col-xs-12"><h4>SMS Integration</h4></div>
+
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input type="checkbox" checked data-toggle="toggle" data-style="on-off" data-onstyle="warning" data-offstyle="danger">
+                                    <p class="on-off-text">SMS Notification</p>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <select class="form-control">
+                                  <option>Select Provider</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <input type="text" class="form-control" id="" placeholder="Enter API Key Here...">
+                            </div>
+                        </div>
+
+                        <div class="integration row">
+                            <div class="integration-top">
+                                <div class="col-md-6 col-sm-6 col-xs-12"><h4>Helpdesk Integration</h4></div>
+
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input type="checkbox" checked data-toggle="toggle" data-style="on-off" data-onstyle="warning" data-offstyle="danger">
+                                    <p class="on-off-text">Create Ticket</p>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <input type="text" class="form-control" id="" placeholder="Enter Support Desk Email Address...">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/bootstrap-toggle.js"></script>
+    </body>
+</html>

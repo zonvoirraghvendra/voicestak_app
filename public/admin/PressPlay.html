@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>PressPlay</title>
+        <link rel="icon" type="image/png" href="#">
+        <link rel="stylesheet" type="text/css" href="assets/css/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/spectrum.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/all.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/classic.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/classic.date.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/nv.d3.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/custom-form.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/fixes.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/smoothzoom.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/image-picker.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/template-selection.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/template-selection.css">
+
+        <link
+            href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,400italic,600italic,700,700italic,800,800italic'
+            rel='stylesheet' type='text/css'/>
+        <link
+            href='//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'
+            rel='stylesheet' type='text/css'/>
+        <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css"/>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+
+
+        <script src='assets/js/lodash.min.js' > </script>
+        <script src='assets/js/helpers.js' > </script>
+        <script src='assets/js/semantic.min.js' > </script>
+        <script src='assets/js/d3.v3.min.js' > </script>
+        <script src='assets/js/nv.d3.js' > </script>
+        <script src='assets/js/spectrum.js' > </script>
+        <script src='assets/js/range-slider/js/ion.rangeSlider.min.js' > </script>
+        <script src='assets/js/smoothzoom.min.js' > </script>
+        <script src='assets/js/picker.js' > </script>
+        <script src='assets/js/picker.date.js' > </script>
+        <script src='assets/js/app.js' > </script>
+        <script src='assets/js/jquery.main.js' > </script>
+        <script src='assets/js/image-picker.js' > </script>
+
+        <script type="text/javascript">
+
+        </script>
+    </head>
+    <body class="">
+
+        <div class="ui dimmer">
+            <div class="ui text loader">Please wait...</div>
+        </div>
+
+
+        <div class="appHeader">
+            <div class="container">
+
+                <!-- logo -->
+                <div class="pull-left">
+                    <h1 class="logo"><a href="#">PressPlay</a></h1>
+                </div>
+
+                <!-- navigation -->
+                <div class="pull-right">
+                    <ul class="ui secondary menu">
+                        <li class="item active">
+                            <a href="#">
+                                <i class="reorder icon"></i>
+                                Dashboard
+                            </a>
+                        </li>
+
+
+                            <li class="item">
+                                <a href="#">
+                                    <i class="reorder icon"></i>
+                                    Admin
+                                </a>
+                            </li>
+
+                        <li class="item">
+                            <a>
+                                <i class="setting icon"></i>
+                                Account
+                            </a>
+
+                            <div class="secondary-dropdown" style="width: 230px;">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="user icon"></i>
+                                            My Account
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="mail icon"></i>
+                                            Email Integration
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="users icon"></i>
+                                            User Management
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="">
+                                            <i class="attachment icon"></i>
+                                            Training
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"
+                                           target="_blank">
+                                            <i class="attachment icon"></i>
+                                            Support
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="">
+                                            <i class="off icon"></i>
+                                            Logout
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <script  src="/js/ckeditor/ckeditor.js"></script>
+        <div id="main" class="admin-page">
+            <section class="main-section">
+                <div class="ui celled grid">
+                    <div class="row">
+                        <div class="nine wide column">
+                            <form id="filter_users_form" class="ui wide form" action="" method="GET">
+                                <div class="four fields">
+                                    <div class="field">
+                                        <div class="ui left input">
+                                            <input name="filter_name" type="text" placeholder="Name"
+                                                   value="#">
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <div class="ui left input">
+                                            <input name="filter_email" type="text" placeholder="Email"
+                                                   value="#">
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <div class="ui small selection dropdown">
+                                            <input type="hidden" name="filter_plan"
+                                                   value="#">
+
+                                            <div class="default text">Account Plan</div>
+                                            <i class="dropdown icon"></i>
+
+                                            <div class="menu">
+                                                <div class="item" data-value="pp-full">PP Full</div>
+                                                <div class="item" data-value="">Any</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <input class="ui left button teal" type="submit" value="Search">
+                                    </div>
+                                </div>
+                            </form>
+
+                            <form id="announcement_manager" class="ui wide form"  method="POST">
+                                <div class="field">
+                                    <div class="ui left input">
+
+                                            <input name="announcement_header" type="text" placeholder="Header" >
+
+                                    </div>
+                                </div>
+                                <div class="field">
+                                        <!-- <textarea  name='announcement_text' id='announcement_text'></textarea> -->
+                                        <textarea  name='announcement_text' id='announcement_text'> </textarea>
+                                </div>
+                                <div class="field">
+                                    <div id="announcement_update" class="ui left button teal">Update Only</div>
+                                    <div id="announcement_save" class="ui left button teal">Save as new</div>
+                                </div>
+
+                            </form>
+
+
+                        </div>
+                        <div class="three wide column">
+                            <strong>Users by plans:</strong>
+                            <ul class="ui list">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui segment">
+                    <table class="ui table padded celled segment">
+                        <thead>
+                            <tr>
+                                <th>Name / Email</th>
+                                <th>Status</th>
+                                <th>Plan</th>
+                                <th>Notes</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                    <td>
+                                        First Name Last Name
+                                        (email)
+                                    </td>
+                                    
+                                    <td>#</td>
+                                    <td style="width: 300px">
+                                        <table class="ui table basic small">
+                                            <tr>
+                                                <td><strong>Created at</strong></td>
+                                                <td>#</td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Projects</strong></td>
+                                                <td>#</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <a class="ui button blue mini" href="#">Edit</a>
+                                        <a href="#" class="ui button green mini">Log In</a>
+                                    </td>
+                                </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th colspan="5">
+                                    <a class="ui blue labeled icon button" href="#"><i class="user icon"></i> Add User</a>
+                                </th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        <script>
+            CKEDITOR.replace( 'announcement_text' );
+            
+            $('#announcement_update').on('click',function(){
+                var data = $('#announcement_manager').serializeArray();
+                data[1].value = CKEDITOR.instances.announcement_text.getData();
+                $.post(
+                    '/account/update-notification',
+                    data, 
+                    function (response) {
+                        $('.notification_message').remove();
+                        $('#filter_users_form').append('<div class="notification_message alert alert-success">Notification has been added</div>');
+                    }
+                )
+            });
+            $('#announcement_save').on('click',function(){
+                var data = $('#announcement_manager').serializeArray();
+                data[1].value = CKEDITOR.instances.announcement_text.getData();
+
+                $.post(
+                    '/account/add-notification',
+                    data, 
+                    function (response) {
+                        $('.notification_message').remove();
+                        $('#filter_users_form').append('<div class="notification_message alert alert-success">Notification has been added</div>');
+                    }
+                )
+
+
+            })
+
+
+            $('#filter_users_form').submit(function () {
+                $(':input', this).each(function () {
+                    this.disabled = !($(this).val());
+                });
+            });
+        </script>

@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".campaign_select").on("change",function(){var e=$(this).val();$.get("/messages?campaign_id="+e,function(e){$("#MessagesSortByCampaign").submit()})}),$(".widget_select").on("change",function(){var e=$(".campaign_select").val(),a=$(this).val();$.get("/messages?campaign_id="+e+"&widget_id="+a,function(e){$("#MessagesSortByWidget").submit()})})});

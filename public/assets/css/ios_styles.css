@@ -1,0 +1,189 @@
+
+.modal .modal-header {
+  background-color: #F3F5F6 !important;
+  border-radius: 5px;
+  border-top: 1px solid #e5e5e5;
+}
+.modal .modal-header .modal-title {
+  font-weight: 600;
+  font-family: "Montserrat";
+  margin-top: 0.1em;
+}
+.modal .modal-header button {
+  position: relative;
+  top: 3px;
+}
+.modal .modal-body {
+  background-color: #FCFCFC !important;
+}
+.modal .modal-footer {
+  margin: 0 !important;
+  padding: 1em 1em !important;
+}
+
+.hide {
+  display: none;
+}
+
+i.glyphicon {
+  margin-right: 0.2em;
+}
+
+#popup-ios .modal-content {
+  padding: 1em 0 2em;
+}
+#popup-ios .modal-header,
+#popup-ios .modal-body,
+#popup-ios .modal-footer {
+  background-color: transparent !important;
+  border: 0 !important;
+  text-align: center;
+}
+#popup-ios .modal-body p.note {
+  width: 80%;
+  margin: 1em auto 0;
+  display: block;
+}
+#popup-ios .modal-body img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+#popup-ios .modal-footer button {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+#popup-ios .modal-footer button.btn-success {
+  padding: 1em;
+  font-size: 19px;
+}
+
+
+.vs-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+.vs-modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+
+.vs-modal-content {
+  position: relative;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+  box-shadow: 0 3px 9px rgba(0,0,0,.5);
+  padding: 10px 0;
+
+}
+
+.vs-modal-header {
+  min-height: 16.43px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.vs-modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.vs-modal-body {
+  position: relative;
+  padding: 15px;
+}
+
+.vs-modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+.vs-button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.vs-primary-button {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.vs-default-button {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+#popup-ios .vs-modal-header, #popup-ios .vs-modal-body, #popup-ios .vs-modal-footer {
+  background-color: transparent !important;
+  border: 0 !important;
+  text-align: center;
+}
+
+#popup-ios .vs-modal-body img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+#popup-ios .vs-modal-body p.note {
+  width: 80%;
+  margin: 1em auto 0;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .vs-modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+}
+
+#launch_voicestak_button {
+  display: inline-block;
+}

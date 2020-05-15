@@ -1,0 +1,33 @@
+{
+    "name": "callfire/php-sdk",
+    "description": "PHP SDK for integrating with the CallFire API",
+    "homepage": "http://www.callfire.com/",
+    "authors": [
+        {
+            "name": "Justin Martin",
+            "email": "jmartin@callfire.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*",
+        "zendframework/zend-stdlib": "~2.2.2"
+    },
+    "require-dev": {
+        "zendframework/zend-stdlib": "~2.2.1",
+        "zendframework/zend-code": "~2.2.1",
+        "fabpot/php-cs-fixer": "v0.2.0",
+        "phpunit/phpunit": "~3.7.22",
+        "phpdocumentor/phpdocumentor": "v2.0.1",
+        "satooshi/php-coveralls": "~0.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "CallFire": "src/"
+        },
+        "classmap": [
+            "tests/"
+        ]
+    }
+}

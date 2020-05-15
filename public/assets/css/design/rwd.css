@@ -1,0 +1,606 @@
+@media (min-width: 1600px) {
+  .vt-campaign-list {
+    width: 1330px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1600px) {
+  .vt-campaign-list {
+    max-width: 1000px;
+  }
+}
+@media (min-width: 700px) and (max-width: 999px) {
+  .vt-campaign-list {
+    max-width: 667px;
+  }
+}
+@media (min-width: 300px) and (max-width: 699px) {
+  .container-fluid .vt-campaign-list-controller,
+  .container-fluid .vt-campaign-list.fluid .vt-campaign-list-controller {
+    padding: 0 1.5em !important;
+  }
+
+  .container-fluid .vt-campaign-box {
+    margin: 1em auto !important;
+  }
+
+  .vt-campaign-list {
+    max-width: 330px;
+  }
+  .vt-campaign-list.fluid {
+    max-width: 425px !important;
+  }
+
+  .vt-campaign-tab {
+    width: 300px !important;
+    height: auto !important;
+    float: none !important;
+    margin: 1em auto !important;
+    border-radius: 0 0 0.5em 0 !important;
+    overflow: hidden !important;
+  }
+  .vt-campaign-tab .vt-campaign-box-image {
+    height: 297px !important;
+    width: 100% !important;
+    position: relative !important;
+  }
+  .vt-campaign-tab .vt-campaign-box-image .vt-image-main {
+    padding: 0 !important;
+  }
+  .vt-campaign-tab .vt-image-logos {
+    width: 100% !important;
+    float: left !important;
+    display: inline-block !important;
+    position: relative !important;
+    bottom: 0 !important;
+    text-align: center !important;
+    border-top: 1px solid #e1e1e1 !important;
+    opacity: 1 !important;
+  }
+  .vt-campaign-tab .vt-image-logos li {
+    display: inline-block !important;
+    float: none !important;
+    height: 45px !important;
+  }
+  .vt-campaign-tab .vt-content {
+    padding: 0 !important;
+    float: left;
+  }
+  .vt-campaign-tab .vt-content .vt-campaign-title {
+    text-align: center;
+  }
+  .vt-campaign-tab .vt-campaign-stats-container {
+    background: #FFF;
+    position: relative;
+    display: inline-block;
+    width: 85% !important;
+    float: left;
+  }
+  .vt-campaign-tab .vt-campaign-stats-container > span {
+    color: #AAA;
+    display: inline-block !important;
+    width: 119px;
+    padding: 0.3em 0.3em !important;
+    margin-bottom: 0;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 12px;
+    left: -47px;
+    text-align: center !important;
+    top: 47px;
+    position: absolute;
+    text-transform: lowercase;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
+  .vt-campaign-tab .vt-campaign-stats-container .vt-campaign-stats {
+    overflow: hidden !important;
+    border-right: 1px solid #e1e1e1 !important;
+    padding: 0 0 0 1.5em !important;
+  }
+  .vt-campaign-tab .vt-campaign-stats-container .vt-campaign-stats .row {
+    margin: 0 !important;
+  }
+  .vt-campaign-tab .vt-campaign-stats-container .vt-campaign-stats .row .col-md-4 {
+    border-right: 0 none !important;
+  }
+  .vt-campaign-tab .vt-campaign-stats-container .vt-campaign-stats .stats {
+    padding: 0.5em 0.6em 0.2em !important;
+    border-bottom: 1px solid #e1e1e1 !important;
+    text-align: center !important;
+    width: 100% !important;
+    float: left !important;
+    line-height: 23px !important;
+    height: auto !important;
+  }
+  .vt-campaign-tab .vt-campaign-stats-container .vt-campaign-stats .stats:last-child {
+    border-bottom: 0 none !important;
+  }
+  .vt-campaign-tab .vt-campaign-stats-container .vt-campaign-stats span {
+    color: #999;
+    font-weight: 600;
+    float: right !important;
+    text-align: left;
+    font-size: 1em;
+    font-family: "Montserrat";
+  }
+  .vt-campaign-tab .vt-campaign-stats-container .vt-campaign-stats label {
+    font-weight: 300;
+    text-align: right;
+    color: #999;
+    float: left !important;
+    font-size: 1em;
+  }
+  .vt-campaign-tab .vt-campaign-box-controller {
+    position: relative;
+    padding: 0.4em 0.2em !important;
+    text-align: center !important;
+    display: inline-block !important;
+    width: 15% !important;
+    float: left !important;
+    margin: 0;
+    background: #FFF;
+  }
+  .vt-campaign-tab .vt-campaign-box-controller a {
+    font-size: 11px;
+    color: #FFF;
+    border: none;
+    margin-left: 0 !important;
+    padding: 0.76em 1em 0.6em !important;
+    margin-bottom: 0.7em !important;
+    position: relative;
+    text-align: center;
+  }
+  .vt-campaign-tab .vt-campaign-box-controller a span {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  .vt-campaign-tab .vt-campaign-box-controller a.btn.btn-danger {
+    margin-bottom: 0 !important;
+  }
+  .vt-campaign-tab .vt-campaign-box-controller a.btn.btn-danger span:before {
+    position: relative;
+    left: -1px;
+  }
+}
+@media (max-width: 599px) {
+  .vt-campaign-list {
+    text-align: center;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .vt-campaign-box {
+    float: none !important;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  nav {
+    background: #34495e;
+    border-radius: 0;
+    border-bottom: 0;
+    position: relative;
+    padding: 0;
+    border-bottom: 1px solid #222;
+  }
+  nav .navbar-header {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  nav .navbar-header .navbar-brand {
+    color: #FFF;
+    width: 150px;
+    padding: 0.44em 0.5em;
+    text-align: center;
+  }
+  nav .navbar-collapse {
+    width: 100%;
+    padding-left: 160px;
+  }
+  nav .navbar-nav > li {
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+  }
+  nav .navbar-nav > li.active {
+    margin-left: 15px;
+  }
+  nav .navbar-nav > li > a {
+    font-size: 0.85em;
+    padding: 0.3em 0.8em;
+    margin: 0 0.2em;
+    color: #FFF;
+    display: inline-block;
+    font-family: "Montserrat";
+  }
+  nav .navbar-nav > li > a i {
+    position: relative;
+    top: 2px;
+  }
+  nav .navbar-nav > li.active a {
+    background: #5cb85c !important;
+    color: #FFF !important;
+    border-radius: 4px;
+  }
+  nav .navbar-nav > li.active a:hover {
+    color: #f1f1f1 !important;
+  }
+}
+@media (max-width: 768px) {
+  .help-page-container #videoMenu {
+    display: none;
+  }
+  .help-page-container .video-cont {
+    padding-left: 1.8em !important;
+  }
+
+  .navbar-collapse {
+    padding: 0 !important;
+  }
+
+  .navbar-header {
+    width: 100%;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    float: none !important;
+    margin: 0 !important;
+  }
+  .navbar-nav > li {
+    border-bottom: 1px solid #333;
+  }
+  .navbar-nav a.dropdown-toggle {
+    padding-bottom: 14px !important;
+    padding-left: 44px !important;
+  }
+  .navbar-nav a.dropdown-toggle .avatar {
+    top: 7px !important;
+    left: 8px !important;
+  }
+
+  .navbar-brand {
+    padding: 0.55em;
+  }
+  .navbar-brand .img-responsive {
+    width: 120px;
+  }
+  .navbar-brand img {
+    width: 100%;
+  }
+
+  .vt-page-header .vt-page-title {
+    width: 100%;
+  }
+  .vt-page-header .vt-page-controller {
+    border-top: 1px solid #888;
+    padding-top: 1em;
+    margin-top: 0.5em;
+  }
+
+  .vt-campaign-list,
+  .vt-inbox-list,
+  .vt-sms-list,
+  .vt-user-list,
+  .vt-default-page {
+    padding: 0 0.5em !important;
+    margin-top: 0 !important;
+  }
+
+  .vt-settings-container {
+    margin: 0.5em 0;
+  }
+}
+@media (max-width: 400px) {
+  .vt-chart-filter-options {
+    padding-bottom: 0 !important;
+  }
+  .vt-chart-filter-options .vt-chart-filter,
+  .vt-chart-filter-options .vt-filter-button {
+    margin: 0 0 0.4em;
+    width: 100% !important;
+  }
+  .vt-chart-filter-options .vt-chart-filter .bootstrap-select,
+  .vt-chart-filter-options .vt-filter-button .bootstrap-select {
+    width: 100% !important;
+  }
+
+  .vt-page-header .vt-page-controller {
+    width: 100%;
+  }
+  .vt-page-header .vt-page-controller a.ml10 {
+    margin-left: 0 !important;
+  }
+  .vt-page-header .vt-page-controller form,
+  .vt-page-header .vt-page-controller .bootstrap-select {
+    width: 100% !important;
+    margin-bottom: 0.2em;
+  }
+  .vt-page-header .vt-page-controller .btn {
+    float: left !important;
+  }
+
+  .vt-inbox-list .vt-inbox-tab {
+    height: auto;
+  }
+  .vt-inbox-list .vt-inbox-tab .vt-content {
+    padding-left: 0;
+    z-index: 9;
+    position: relative;
+  }
+  .vt-inbox-list .vt-inbox-tab .vt-inbox-box-image {
+    z-index: 10;
+    width: 84px;
+    height: 85px;
+  }
+  .vt-inbox-list .vt-inbox-tab .vt-inbox-title {
+    width: 100% !important;
+    height: auto !important;
+    padding-left: 95px !important;
+  }
+  .vt-inbox-list .vt-inbox-tab .vt-inbox-title .vt-user-details {
+    width: 100% !important;
+  }
+  .vt-inbox-list .vt-inbox-tab .vt-inbox-title .vt-user-details label {
+    width: 100% !important;
+    border: 0 !important;
+    margin-bottom: 0;
+  }
+  .vt-inbox-list .vt-inbox-tab .vt-inbox-stats-container {
+    height: auto !important;
+  }
+  .vt-inbox-list .vt-inbox-tab .vt-inbox-stats-container .vt-inbox-stats {
+    width: 100% !important;
+  }
+  .vt-inbox-list .vt-inbox-tab .vt-inbox-stats-container .vt-inbox-stats .stats {
+    width: 100% !important;
+    height: auto !important;
+    line-height: 0 !important;
+    border-bottom: 1px solid #ddd;
+    padding: 0.3em 0.5em 0.5em;
+  }
+  .vt-inbox-list .vt-inbox-tab .vt-inbox-stats-container .vt-inbox-stats .stats label {
+    height: 15px;
+    line-height: 15px;
+    margin-bottom: 0;
+  }
+  .vt-inbox-list .vt-inbox-tab .vt-inbox-box-controller {
+    width: 100%;
+  }
+  .vt-inbox-list .vt-inbox-tab .vt-inbox-box-controller a {
+    float: right;
+    margin-left: 0.5em;
+  }
+
+  .vt-sms-list .vt-sms-tab {
+    height: auto;
+  }
+  .vt-sms-list .vt-sms-tab .vt-content {
+    padding-left: 0;
+    z-index: 9;
+    position: relative;
+  }
+  .vt-sms-list .vt-sms-tab .vt-sms-box-image {
+    z-index: 10;
+    width: 84px;
+    height: 85px;
+  }
+  .vt-sms-list .vt-sms-tab .vt-sms-title {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .vt-sms-list .vt-sms-tab .vt-sms-title .vt-user-details {
+    width: 100% !important;
+    text-align: center;
+  }
+  .vt-sms-list .vt-sms-tab .vt-sms-title .vt-user-details label {
+    width: auto !important;
+    margin-bottom: 0;
+  }
+  .vt-sms-list .vt-sms-tab .vt-sms-title .vt-user-details label:last-child {
+    border-right: 0 !important;
+  }
+  .vt-sms-list .vt-sms-tab .vt-sms-stats-container {
+    height: auto !important;
+  }
+  .vt-sms-list .vt-sms-tab .vt-sms-stats-container .vt-sms-stats {
+    width: 100% !important;
+  }
+  .vt-sms-list .vt-sms-tab .vt-sms-stats-container .vt-sms-stats .stats {
+    width: 100% !important;
+    height: auto !important;
+    line-height: 0 !important;
+    border-bottom: 1px solid #ddd;
+    padding: 0.3em 0.5em 0.5em;
+  }
+  .vt-sms-list .vt-sms-tab .vt-sms-stats-container .vt-sms-stats .stats label {
+    height: 15px;
+    line-height: 15px;
+    margin-bottom: 0;
+  }
+  .vt-sms-list .vt-sms-tab .vt-sms-box-controller {
+    width: 100%;
+  }
+  .vt-sms-list .vt-sms-tab .vt-sms-box-controller a {
+    float: right;
+    margin-left: 0.5em;
+  }
+
+  .vt-user-list .vt-user-tab {
+    height: auto;
+    padding-left: 0 !important;
+  }
+  .vt-user-list .vt-user-tab .vt-content {
+    z-index: 9;
+    position: relative;
+  }
+  .vt-user-list .vt-user-tab .vt-user-gavatar {
+    z-index: 10;
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .vt-user-list .vt-user-tab .vt-user-title {
+    width: 100% !important;
+    height: auto !important;
+    padding-left: 40px !important;
+    z-index: 9 !important;
+    position: relative !important;
+  }
+  .vt-user-list .vt-user-tab .vt-user-title .vt-user-details {
+    width: 100% !important;
+  }
+  .vt-user-list .vt-user-tab .vt-user-title .vt-user-details label {
+    width: 100% !important;
+    border: 0 !important;
+    margin-bottom: 0;
+  }
+  .vt-user-list .vt-user-tab .vt-user-stats-container {
+    height: auto !important;
+    z-index: 9 !important;
+    position: relative !important;
+  }
+  .vt-user-list .vt-user-tab .vt-user-stats-container .vt-user-stats {
+    width: 100% !important;
+  }
+  .vt-user-list .vt-user-tab .vt-user-stats-container .vt-user-stats .stats {
+    width: 100% !important;
+    height: auto !important;
+    line-height: 0 !important;
+    border: 0 !important;
+    padding: 0.5em 0.5em 0.4em;
+  }
+  .vt-user-list .vt-user-tab .vt-user-stats-container .vt-user-stats .stats label {
+    height: 15px;
+    line-height: 15px;
+    margin-bottom: 0;
+  }
+  .vt-user-list .vt-user-tab .vt-user-box-controller {
+    width: 100%;
+    border-top: 1px solid #eee;
+    position: relative;
+    z-index: 12;
+  }
+  .vt-user-list .vt-user-tab .vt-user-box-controller a {
+    float: right;
+    margin-left: 0.5em;
+  }
+
+  .campaign-wizard {
+    margin-top: 6em;
+  }
+  .campaign-wizard .step-progress-container {
+    padding: 1em 1em 0 !important;
+    text-align: center !important;
+    overflow: hidden;
+  }
+  .campaign-wizard .step-progress-container .step-navs {
+    top: -80px !important;
+    padding: 0 1em;
+  }
+  .campaign-wizard .step-progress-container .step-navs .back-button,
+  .campaign-wizard .step-progress-container .step-navs .next-button {
+    width: 70px !important;
+  }
+  .campaign-wizard .step-progress-container .step-navs .back-button a,
+  .campaign-wizard .step-progress-container .step-navs .next-button a {
+    height: auto !important;
+    font-size: 12px;
+    padding: 0.6em !important;
+    border-radius: 5px !important;
+  }
+  .campaign-wizard .vt-option-setting-container {
+    width: 100%;
+  }
+  .campaign-wizard .vt-option-setting-container .toggle.btn {
+    width: 100% !important;
+  }
+  .campaign-wizard .vt-option-setting-container .title,
+  .campaign-wizard .vt-option-setting-container .buttons {
+    width: 100%;
+    margin: 0;
+  }
+  .campaign-wizard .vt-option-setting-container .buttons {
+    border-top: 1px solid #eee;
+    padding: 0.4em 0 0;
+    margin-top: 0.4em;
+  }
+  .campaign-wizard .vt-option-setting-container .buttons input {
+    width: 100%;
+  }
+  .campaign-wizard .vt-option-setting-container .buttons a.btn,
+  .campaign-wizard .vt-option-setting-container .buttons button.btn {
+    width: 100% !important;
+  }
+  .campaign-wizard .fields-integration .form-builder-option .toggle {
+    width: 100% !important;
+    left: 10px;
+    max-width: 50px !important;
+    min-width: 50px !important;
+    height: 32px !important;
+  }
+  .campaign-wizard .fields-integration .form-builder-option .toggle label.toggle-on {
+    padding: 5px 5px 5px 0 !important;
+  }
+  .campaign-wizard .fields-integration .form-builder-option .toggle label.toggle-off {
+    padding: 5px 0 5px 5px !important;
+  }
+  .campaign-wizard .fields-integration .form-builder-option .checkbox .toggle {
+    left: -5px !important;
+  }
+
+  .vt-option-container {
+    width: 100%;
+    padding: 0 0.4em !important;
+  }
+  .vt-option-container .buttons {
+    width: 100%;
+    border-top: 1px solid #eee;
+    padding: 0.4em 0 0;
+  }
+  .vt-option-container .buttons .btn,
+  .vt-option-container .buttons input {
+    width: 100% !important;
+    margin-bottom: 0.4em;
+    border-radius: 5px !important;
+  }
+  .vt-option-container .buttons .input-group-btn {
+    width: 100%;
+    display: inline-block;
+  }
+  .vt-option-container .buttons .input-group-btn .btn {
+    width: 100% !important;
+    border-radius: 5px !important;
+  }
+
+  .modal .modal-dialog {
+    padding: 0 1em !important;
+  }
+  .modal .modal-dialog .modal-content,
+  .modal .modal-dialog .modal-body {
+    border-radius: 0.4em !important;
+  }
+  .modal .modal-dialog .setting-tab-cont.option-row-content {
+    width: 100% !important;
+  }
+  .modal .modal-dialog .setting-tab-cont.option-row-content .title,
+  .modal .modal-dialog .setting-tab-cont.option-row-content .buttons {
+    width: 100%;
+    margin: 0;
+  }
+  .modal .modal-dialog .setting-tab-cont.option-row-content .buttons {
+    border-top: 1px solid #eee;
+    padding: 0.4em 0 0;
+    margin-top: 0.4em;
+  }
+  .modal .modal-dialog .setting-tab-cont.option-row-content .buttons .btn {
+    width: 100% !important;
+  }
+
+  .fields-integration form .section-title .required-section {
+    display: block !important;
+  }
+}

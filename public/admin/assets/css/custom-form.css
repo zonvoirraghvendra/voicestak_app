@@ -1,0 +1,423 @@
+/* hide original element */
+.jcf-hidden {
+    display: block !important;
+    position: absolute !important;
+    left: -9999px !important; /* change to right: -9999px on RTL sites */
+}
+
+/* custom checkbox styles */
+.chk-area {
+    float: left;
+    width: 55px;
+    height: 22px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    margin: 0 10px 0 0;
+    background: #1abc9c;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.chk-area span {
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 100%;
+    position: absolute;
+    transition: left 0.4s ease;
+    -webkit-transition: left 0.4s ease;
+    background: url(../images/icon7.png) no-repeat 50% 50% #e8e9ec;
+}
+
+.chk-unchecked {
+    background: #e04f4b;
+}
+
+.chk-unchecked span {
+    left: 20px;
+    animation: check 0.5s ease;
+    -webkit-animation: check 0.5s ease;
+    background-image: url(../images/icon8.png);
+}
+
+.gray-check .chk-unchecked {
+    background: #838c8d;
+}
+
+.gray-check .chk-unchecked span {
+    background: url(../images/icon-x.png) no-repeat 50% 50% #bfc3c7;
+}
+
+@keyframes check {
+    from {
+        left: 0;
+    }
+    to {
+        left: 20px;
+    }
+}
+
+@-webkit-keyframes check {
+    from {
+        left: 0;
+    }
+    to {
+        left: 20px;
+    }
+}
+
+.chk-focus {
+    border-color: #f00;
+}
+
+.chk-disabled {
+    background: #eee;
+}
+
+.jcf-label-disabled {
+    color: #ccc;
+}
+
+/* custom radio styles */
+.rad-area {
+    float: left;
+    width: 21px;
+    height: 20px;
+    margin: 0 10px 0 0;
+    transition: background 0.25s ease;
+    -webkit-transition: background 0.25s ease;
+    background: url(../images/radio-btn.png) no-repeat;
+}
+
+.rad-checked {
+    background-position: 100% 0;
+}
+
+.rad-focus {
+    border-color: #f00;
+}
+
+.rad-disabled {
+    background: #eee;
+}
+
+/* custom select styles */
+.select-area {
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+    height: 39px;
+    float: left;
+    background: #028edc;
+    width: 100% !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.select-area.select-active {
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+
+.select-focus {
+    border-color: #f00;
+}
+
+.select-area .center {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    line-height: 17px;
+    white-space: nowrap;
+    padding: 11px 33px 11px 10px;
+}
+
+.select-disabled {
+    background: #eee;
+}
+
+.select-area .select-opener {
+    position: absolute;
+    width: 30px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    background: url(../images/arrow-down2.png) no-repeat 50% 50%;
+}
+
+.select-area.select-active .select-opener,
+.select-area .select-opener:hover {
+    background-color: #0077ba;
+}
+
+.select-options {
+    position: absolute;
+    overflow: hidden;
+    background: #fff;
+    z-index: 2000;
+}
+
+.select-options .drop-holder {
+    border: solid #028edc;
+    overflow: hidden;
+    height: 1%;
+    border-width: 0 1px 1px;
+}
+
+.select-options ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.select-options ul li {
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.select-options ul a {
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    cursor: default;
+    color: #000;
+    height: 1%;
+}
+
+.select-options .item-selected a {
+    text-decoration: none;
+    background: #0077ba;
+    color: #fff;
+}
+
+/* select options optgroup example styles */
+.select-options .optgroup {
+    clear: both;
+}
+
+.select-options .optgroup strong {
+    display: block;
+    padding: 5px;
+}
+
+.select-options .optgroup ul a {
+    padding-left: 30px;
+}
+
+/* custom file input */
+.file-area .jcf-input-wrapper {
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.file-area .jcf-upload-button {
+    border: 1px solid #777;
+    padding: 10px 15px;
+    background: #777;
+    color: #fff;
+    float: left;
+    height: 20px;
+}
+
+.file-area .jcf-fake-input {
+    border: 1px solid #777;
+    padding: 10px 15px;
+    float: left;
+    margin: 0 5px;
+    width: 200px;
+    height: 20px;
+}
+
+.file-disabled .jcf-upload-button {
+    border-color: #eee;
+    background-color: #eee;
+    color: #777;
+}
+
+.file-disabled .jcf-fake-input {
+    border-color: #eee;
+    color: #aaa;
+}
+
+.jcf-class-video.no-file {
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.jcf-class-video {
+    left: 0;
+    right: 0;
+    top: -5px;
+    bottom: -5px;
+    background: #fff;
+    text-align: center;
+    position: absolute !important;
+}
+
+.jcf-class-video.jcf-class-alt {
+    background: #ECEEF3;
+}
+
+.jcf-class-video .jcf-upload-button {
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    color: #028EDC;
+    background: none;
+    position: relative;
+    text-transform: lowercase;
+}
+
+.jcf-class-video .jcf-upload-button:after {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #f00;
+    font-size: 15px;
+    background: #fff;
+    display: inherit;
+    line-height: 18px;
+    position: absolute;
+    font-style: italic;
+    content: 'it is not a "video" file - please select again';
+}
+
+.jcf-class-video.jcf-class-image .jcf-upload-button:after {
+    content: 'it is not a "image" file - please select again';
+}
+
+.jcf-class-video.jcf-class-alt .jcf-upload-button:after {
+    background: #ECEEF3;
+}
+
+.jcf-class-video.no-file .jcf-upload-button:after {
+    display: none;
+}
+
+.jcf-class-video:hover .jcf-upload-button {
+    color: #035888;
+}
+
+.jcf-class-video.no-file .jcf-fake-input {
+    display: none;
+}
+
+.jcf-class-video .jcf-fake-input {
+    width: auto;
+    height: auto;
+    float: none;
+    margin: 0 auto;
+    display: block;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 5px;
+    border-color: #ccc;
+    -webkit-border-radius: 5px;
+}
+
+.jcf-class-video .jcf-wrap {
+    width: auto !important;
+}
+
+.file-input-opacity {
+    cursor: pointer;
+}
+
+.extension-3g2 .jcf-upload-button:after,
+.extension-3gp .jcf-upload-button:after,
+.extension-3gpp .jcf-upload-button:after,
+.extension-asf .jcf-upload-button:after,
+.extension-avi .jcf-upload-button:after,
+.extension-dat .jcf-upload-button:after,
+.extension-divx .jcf-upload-button:after,
+.extension-dv .jcf-upload-button:after,
+.extension-f4v .jcf-upload-button:after,
+.extension-flv .jcf-upload-button:after,
+.extension-m2ts .jcf-upload-button:after,
+.extension-m4v .jcf-upload-button:after,
+.extension-mkv .jcf-upload-button:after,
+.extension-mod .jcf-upload-button:after,
+.extension-mov .jcf-upload-button:after,
+.extension-mp4 .jcf-upload-button:after,
+.extension-mpe .jcf-upload-button:after,
+.extension-mpeg .jcf-upload-button:after,
+.extension-mpeg4 .jcf-upload-button:after,
+.extension-mpg .jcf-upload-button:after,
+.extension-mts .jcf-upload-button:after,
+.extension-nsv .jcf-upload-button:after,
+.extension-ogm .jcf-upload-button:after,
+.extension-ogv .jcf-upload-button:after,
+.extension-qt .jcf-upload-button:after,
+.extension-tod .jcf-upload-button:after,
+.extension-ts .jcf-upload-button:after,
+.extension-vob .jcf-upload-button:after,
+.extension-wmv .jcf-upload-button:after,
+.extension-jpg.jcf-class-image .jcf-upload-button:after,
+.extension-gif.jcf-class-image .jcf-upload-button:after,
+.extension-bmp.jcf-class-image .jcf-upload-button:after {
+    color: #333;
+    content: 'your selected file';
+}
+
+ 
+/* custom scrollbars styles */
+     .scrollable-area-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.scrollable-area-wrapper .hscrollbar,
+.scrollable-area-wrapper .vscrollbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+}
+
+.scrollable-area-wrapper .hscroll-left,
+.scrollable-area-wrapper .vscroll-up,
+.scrollable-area-wrapper .hscroll-right,
+.scrollable-area-wrapper .vscroll-down {
+    background: #777;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.scrollable-area-wrapper .hscroll-line,
+.scrollable-area-wrapper .vscroll-line {
+    background: #eee;
+    width: 20px;
+    float: left;
+}
+
+.scrollable-area-wrapper .hscroll-slider,
+.scrollable-area-wrapper .vscroll-slider {
+    background: #ccc;
+    width: 20px;
+    height: 20px;
+}
+
+.scrollable-area-wrapper .hscrollbar {
+    position: static;
+    height: 20px;
+    top: auto;
+}
+
+.scrollable-area-wrapper .hscroll-line {
+    height: 20px;
+    width: auto;
+}

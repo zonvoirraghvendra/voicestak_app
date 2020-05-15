@@ -1,0 +1,407 @@
+.main_menu {
+  border-radius: 0; }
+  .main_menu #main_navbar .profile_pic {
+    border: 1px solid #575757;
+    width: 41px;
+    height: 41px;
+    margin-top: 4px; }
+  .main_menu #main_navbar .new_msgs {
+    font-size: 10px;
+    margin-right: 10px;
+    padding-top: 4px; }
+
+.live_preview {
+  background-color: #f7f7f7;
+  border: 6px solid #dfdfdf;
+  padding: 6px 10px;
+  min-height: 600px; }
+
+/*//////////////////campaigns_page////////////////////*/
+.campaigns_page .campaigns {
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  background-color: #F5F5F5; }
+  .campaigns_page .campaigns .voice_boxes {
+    margin-top: 10px;
+    padding: 20px; }
+    .campaigns_page .campaigns .voice_boxes .voice_small_images {
+      width: 50px;
+      height: 50px;
+      border: 1px solid #cccccc;
+      float: left;
+      margin-right: 4px;
+      margin-bottom: 4px; }
+    .campaigns_page .campaigns .voice_boxes .voice_small_images_cont {
+      overflow: hidden; }
+    .campaigns_page .campaigns .voice_boxes .feedback_table td {
+      text-align: center;
+      padding-right: 10px; }
+    .campaigns_page .campaigns .voice_boxes img {
+      max-width: 100%; }
+    .campaigns_page .campaigns .voice_boxes .default_image {
+      height: 100px;
+      width: 100%; }
+    .campaigns_page .campaigns .voice_boxes .actions_cont button {
+      margin-bottom: 4px;
+      padding: 6px 10px;
+      font-size: 12px; }
+
+/*////////////////////////////////////////////////////*/
+/*//////////////////appearance_page///////////////////*/
+.appearance_page .appearance_small_images {
+  width: 100%;
+  height: 120px;
+  border: 1px solid #cccccc;
+  float: left;
+  margin-bottom: 5px; }
+.appearance_page .appearance_small_images_cont > div {
+  text-align: center; }
+.appearance_page .appearance_small_images_cont {
+  margin-bottom: 20px; }
+.appearance_page .choose-color-scheme {
+  margin-bottom: 20px; }
+  .appearance_page .choose-color-scheme .color-scheme-cont input[type="color"] {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    padding: 0 1px; }
+  .appearance_page .choose-color-scheme .color-scheme-cont > div {
+    margin-bottom: 7px; }
+.appearance_page .content input[type="text"] {
+  width: 70%; }
+.appearance_page .content .content-buttons button {
+  width: 100%;
+  margin-bottom: 5px; }
+.appearance_page .branding {
+  margin-bottom: 20px; }
+  .appearance_page .branding input[type="checkbox"] {
+    margin-right: 10px; }
+
+/*////////////////////////////////////////////////////*/
+/*//////////////////embed-code-page///////////////////*/
+.embed-code-page textarea {
+  resize: vertical; }
+.embed-code-page .live-chat {
+  margin-bottom: 30px; }
+.embed-code-page .check-website {
+  margin-bottom: 20px; }
+
+/*////////////////////////////////////////////////////*/
+/* inbox page */
+.inbox .top {
+  margin-bottom: 20px; }
+  .inbox .top h4 {
+    margin-top: 8px;
+    margin-bottom: 7px; }
+    .inbox .top h4 span {
+      vertical-align: bottom;
+      margin-left: 7px; }
+.inbox section {
+  padding: 15px 5px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 20px; }
+  .inbox section .section-left div {
+    overflow: hidden; }
+  .inbox section .section-right h4 {
+    line-height: 36px;
+    border-bottom: 1px solid #ddd; }
+  .inbox section .section-right .save {
+    color: #286090; }
+  .inbox section .section-right .none {
+    color: #c9302c; }
+  .inbox section .section-right .icon {
+    line-height: 6.5; }
+    .inbox section .section-right .icon span {
+      vertical-align: middle;
+      padding: 14px;
+      font-size: 32px;
+      border: 1px solid #ddd;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      color: #31b0d5;
+      border-color: #31b0d5; }
+
+/* campaign wizard page */
+.campaign-wizard .top {
+  margin-bottom: 15px; }
+  .campaign-wizard .top button {
+    float: right;
+    width: 48%;
+    margin-left: 2%; }
+  .campaign-wizard .top .top-left h4 {
+    margin-top: 8px;
+    margin-bottom: 8px; }
+.campaign-wizard .progress-titles {
+  margin-bottom: 10px; }
+  .campaign-wizard .progress-titles .active-title {
+    font-weight: bold;
+    color: #3c763d; }
+.campaign-wizard .content h3 {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd; }
+
+/* fields integration page */
+.fields-integration form section {
+  margin-bottom: 10px;
+  overflow: hidden; }
+  .fields-integration form section select.form-control {
+    width: 100%; }
+  .fields-integration form section input.form-control {
+    width: 100%; }
+  .fields-integration form section input[type="checkbox"] {
+    margin-top: 11px; }
+  .fields-integration form section .checkbox {
+    text-align: center; }
+.fields-integration form .section-title .required-section {
+  text-align: center; }
+.fields-integration .raw-html h4 {
+  margin-top: 40px; }
+.fields-integration .raw-html strong {
+  margin-top: 15px;
+  display: inline-block; }
+.fields-integration .raw-html label, .fields-integration .raw-html textarea {
+  width: 100%; }
+.fields-integration .integration {
+  margin-top: 20px; }
+  .fields-integration .integration h4 {
+    margin-top: 8px;
+    margin-bottom: 8px; }
+  .fields-integration .integration p {
+    margin-top: 7px;
+    margin-bottom: 7px; }
+  .fields-integration .integration .toggle {
+    float: right;
+    margin-left: 5px; }
+  .fields-integration .integration .on-off-text {
+    float: right; }
+  .fields-integration .integration .form-group {
+    margin-bottom: 10px; }
+  .fields-integration .integration select, .fields-integration .integration input {
+    width: 40%; }
+.fields-integration .toggle.on-off, .fields-integration .toggle-on.on-off, .fields-integration .toggle-off.on-off {
+  border-radius: 20px; }
+.fields-integration .toggle.on-off .toggle-handle {
+  border-radius: 20px; }
+
+/*//////////////////////////// Media Queries //////////////////////////////////////*/
+@media screen and (max-width: 320px) {
+  #main_navbar .profile_pic {
+    display: none; }
+  #main_navbar .new_msgs {
+    float: right;
+    margin-right: 0; }
+
+  .live_preview {
+    min-height: 300px;
+    margin-bottom: 15px; }
+
+  /*//////////////////appearance_page///////////////////*/
+  .appearance_page .appearance_small_images {
+    height: 100px; }
+  .appearance_page .choose-design .appearance_small_images_cont > div {
+    margin-bottom: 15px; }
+
+  /*////////////////////////////////////////////////////*/
+  /* inbox page */
+  .section-left, .section-right {
+    width: 100%; }
+
+  .section-right .info {
+    padding-left: 0;
+    padding-right: 0; }
+  .section-right .icon {
+    padding-right: 0;
+    text-align: right; }
+
+  /* fields integration page */
+  .fields-integration form section input[type="checkbox"] {
+    margin-top: 0px; }
+  .fields-integration .raw-html strong {
+    margin-top: 0; }
+  .fields-integration .integration .integration-top {
+    overflow: hidden;
+    margin-bottom: 20px; }
+  .fields-integration .integration select, .fields-integration .integration input {
+    width: 100%; }
+  .fields-integration .integration .on-off-text {
+    float: left; }
+  .fields-integration .integration .toggle {
+    float: left;
+    margin-left: 0;
+    margin-right: 5px; } }
+/* more */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  /*//////////////////appearance_page///////////////////*/
+  .appearance_page .appearance_small_images {
+    height: 200px; }
+
+  /*////////////////////////////////////////////////////*/ }
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  #main_navbar .profile_pic {
+    display: none; }
+  #main_navbar .new_msgs {
+    float: right;
+    margin-right: 0; }
+
+  .voice_boxes > .row > div {
+    margin-bottom: 15px; }
+
+  .live_preview {
+    min-height: 350px;
+    margin-bottom: 15px; }
+
+  /*//////////////////appearance_page///////////////////*/
+  .appearance_page .choose-design .appearance_small_images_cont > div {
+    margin-bottom: 15px; }
+
+  /*////////////////////////////////////////////////////*/
+  /* inbox page */
+  .section-left, .section-right {
+    width: 100%; }
+
+  .section-right .info {
+    padding-left: 0;
+    padding-right: 0; }
+  .section-right .icon {
+    padding-right: 0;
+    text-align: right; }
+
+  /* campaign wizard page */
+  .campaign-wizard .progress-titles {
+    font-size: 11px; }
+
+  /* fields integration page */
+  .fields-integration form section input[type="checkbox"] {
+    margin-top: 0px; }
+  .fields-integration .raw-html strong {
+    margin-top: 0; }
+  .fields-integration .integration .integration-top {
+    overflow: hidden;
+    margin-bottom: 20px; }
+  .fields-integration .integration select, .fields-integration .integration input {
+    width: 60%; }
+  .fields-integration .integration .on-off-text {
+    float: left; }
+  .fields-integration .integration .toggle {
+    float: left;
+    margin-left: 0;
+    margin-right: 5px; } }
+@media screen and (max-width: 680px) {
+  .campaign-wizard .progress-titles {
+    font-size: 16px; }
+  .campaign-wizard .progress-titles > div {
+    width: 100%;
+    text-align: left; }
+
+  /* fields integration page */
+  .fields-integration form .section-title .required-section {
+    display: none; } }
+@media screen and (max-width: 480px) {
+  /* inbox page */
+  .inbox .top > div {
+    width: 100%; }
+  .inbox section .section-left .email, .inbox section .section-left .phone {
+    width: 100%; }
+  .inbox section .section-right .icon span {
+    padding: 25%;
+    font-size: 120%; }
+
+  /* campaign wizard page */
+  .campaign-wizard .top .top-left {
+    width: 100%;
+    text-align: center; }
+  .campaign-wizard .top .top-right {
+    width: 100%; }
+    .campaign-wizard .top .top-right button {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 7px; }
+  .campaign-wizard .content {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0; }
+
+  /* fields integration page */
+  .fields-integration .toggle {
+    width: 40px !important;
+    min-width: 40px !important; }
+    .fields-integration .toggle label {
+      font-size: 12px !important;
+      padding: 8px !important; }
+    .fields-integration .toggle .btn-warning {
+      text-align: left; }
+    .fields-integration .toggle .btn-danger {
+      text-align: right; } }
+/*////////////////////////////// Desctops ////////////////////////////////////////*/
+@media screen and (min-width: 768px) and (max-width: 799px) {
+  /*//////////////////campaigns_page////////////////////*/
+  .feedback_cont {
+    margin-top: 10px; }
+
+  .actions_cont_main {
+    text-align: right;
+    margin-top: 10px; }
+
+  /*////////////////////////////////////////////////////*/
+  .live_preview {
+    min-height: 400px;
+    margin-bottom: 15px; }
+
+  /* inbox page */
+  .section-left, .section-right {
+    width: 100%; }
+
+  .section-right .info {
+    padding-left: 0;
+    padding-right: 0; }
+  .section-right .icon {
+    padding-right: 0;
+    text-align: right; }
+
+  /* campaign wizard page */
+  .campaign-wizard .progress-titles {
+    font-size: 11px; } }
+@media screen and (min-width: 800px) and (max-width: 991px) {
+  /*//////////////////campaigns_page////////////////////*/
+  .feedback_cont {
+    margin-top: 10px; }
+
+  .actions_cont_main {
+    text-align: right;
+    margin-top: 10px; }
+
+  /*////////////////////////////////////////////////////*/
+  .live_preview {
+    min-height: 400px;
+    margin-bottom: 15px; }
+
+  /* inbox page */
+  .section-left, .section-right {
+    width: 100%; }
+
+  .section-right .info {
+    padding-left: 0;
+    padding-right: 0; }
+  .section-right .icon {
+    padding-right: 0;
+    text-align: right; }
+
+  /* campaign wizard page */
+  .campaign-wizard .progress-titles {
+    font-size: 11px; } }
+/* more */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /*//////////////////appearance_page///////////////////*/
+  .appearance_page .appearance_small_images {
+    height: 100px; }
+
+  /*////////////////////////////////////////////////////*/ }
+
+/*# sourceMappingURL=style.css.map */

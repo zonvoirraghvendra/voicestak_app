@@ -1,0 +1,27 @@
+/vendor
+/vendor_old
+/node_modules
+
+/public/uploads/audio/*
+!/public/uploads/audio/.gitkeep 
+/public/uploads/images/*
+!/public/uploads/images/.gitkeep 
+/public/uploads/video/*
+/public/uploads/video/video_bks/*
+!/public/uploads/video/.gitkeep 
+
+/storage
+.env
+public/assets/css/.sass-cache
+
+tests/*
+.env.testing
+/nbproject/private/
+/nbproject/
+/Backups Etc/
+/npm-debug.log
+/public/assets/img/
+/public/assets/node_modules/*
+/test.html
+.idea/*
+/node/uploads/*

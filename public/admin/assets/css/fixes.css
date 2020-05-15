@@ -1,0 +1,1339 @@
+/* line 1, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+.top-template-options-container {
+  -moz-border-bottom-colors: none !important;
+  -moz-border-left-colors: none !important;
+  -moz-border-right-colors: none !important;
+  -moz-border-top-colors: none !important;
+  background: none repeat scroll 0 0 #3a3b3d;
+  border-bottom: 3px solid #0289d4;
+  height: auto !important;
+  padding: 9px 10px 7px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999; }
+  /* line 15, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+  .top-template-options-container .project-actions {
+    background: none repeat scroll 0 0 transparent !important;
+    box-shadow: none !important;
+    float: left;
+    padding: 0;
+    z-index: 9;
+    width: 640px; }
+    /* line 23, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+    .top-template-options-container .project-actions .preview-project {
+      float: right; }
+  /* line 27, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+  .top-template-options-container .ui.fluid.input {
+    width: auto; }
+    /* line 29, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+    .top-template-options-container .ui.fluid.input > label {
+      color: #fff;
+      float: left;
+      font-size: 17px;
+      font-weight: 600;
+      margin-left: 105px;
+      padding: 4px 20px 6px;
+      border-left: 1px solid #fff; }
+    /* line 38, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+    .top-template-options-container .ui.fluid.input > input {
+      float: left;
+      padding: 5px;
+      width: 280px; }
+  /* line 46, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+  .top-template-options-container .small-back {
+    float: left; }
+  /* line 50, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+  .top-template-options-container .ui.bottom.attached.segment.aligned.center {
+    padding: 0;
+    width: 610px;
+    float: right;
+    background: none repeat scroll 0 0 transparent !important;
+    border: 0 none !important;
+    box-shadow: none !important; }
+  /* line 58, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+  .top-template-options-container .ui.bottom.attached.aligned > a {
+    margin-left: 8px; }
+  /* line 62, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+  .top-template-options-container .small-back {
+    color: #fff; }
+
+/* line 67, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+.setting-trigger {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  background: none repeat scroll 0 0 #3a3b3d;
+  cursor: pointer;
+  float: left;
+  font-weight: bold;
+  padding: 5px 10px;
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  z-index: 1;
+  color: #fff !important;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ie-user-select: none; }
+  /* line 86, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+  .setting-trigger i.fa-bars {
+    position: relative;
+    top: 1px; }
+  /* line 91, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+  .setting-trigger.active-sidebar-trigger i.fa-bars {
+    display: none; }
+  /* line 94, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+  .setting-trigger.active-sidebar-trigger > .fa-plus-circle {
+    display: block;
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(45deg); }
+  /* line 103, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+  .setting-trigger i {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #fff !important;
+    font-size: 21px;
+    float: left; }
+  /* line 110, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+  .setting-trigger .fa-plus-circle {
+    display: none;
+    color: #0289D4;
+    font-size: 21px;
+    padding: 1px 0 !important; }
+
+/* line 119, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+.body--video-only #project-preview {
+  margin-top: 5%; }
+
+/* line 124, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+.sidebar--media-library {
+  padding: 20px; }
+
+/* line 130, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+.mce-container {
+  box-sizing: content-box; }
+  /* line 133, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+  .mce-container * {
+    box-sizing: content-box; }
+
+/* line 138, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+#project-options {
+  position: relative; }
+
+/* line 143, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+.option .option--image_delete {
+  color: red;
+  font-size: 14px; }
+
+/* line 149, /home/snayps/webapps/pressplay.templates.local/public/css/editor */
+.option--richText {
+  display: none !important; }
+
+/* line 6, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.modal.modal--vpa > .header {
+  background: #028EDD;
+  color: #FFF;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  margin: -1px -1px 0 -1px;
+  border-bottom: 10px solid #0284D8; }
+/* line 15, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.modal.modal--vpa > .content {
+  border-top: 10px solid #DAEDFB;
+  background-color: #FFF;
+  padding-top: 1.5em;
+  padding-bottom: 0; }
+/* line 24, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.modal.modal--project-publish .list__wp-sites {
+  max-height: 150px;
+  min-height: 20px;
+  overflow-y: auto;
+  overflow-x: hidden; }
+  /* line 30, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+  .modal.modal--project-publish .list__wp-sites i.icon {
+    vertical-align: top; }
+/* line 35, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.modal select {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.3125em;
+  box-shadow: 0 0 rgba(0, 0, 0, 0.3) inset;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1em;
+  margin: 0;
+  outline: 0 none;
+  padding: 0.65em 1em;
+  transition: background-color 0.3s ease-out 0s, box-shadow 0.2s ease 0s, border-color 0.2s ease 0s; }
+/* line 49, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.modal .item {
+  min-height: 0 !important; }
+/* line 53, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.modal .clonePageModal .header, .modal .addNewVideoModal .header, .modal .addNewPageModal .header, .modal .addNewProjectModal .header, .modal .addNewConversionModal .header, .modal .addNewEITabModal .header, .modal .addNewEIModal .header {
+  background-color: #66b34e;
+  background-image: url("//f.cl.ly/items/3E0t1M2Q2l2p0l2J0301/gridme-light.png");
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  color: #ffffff; }
+/* line 60, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.modal .clonePageModal .step, .modal .addNewPageModal .step, .modal .addNewVideoModal .step, .modal .addNewConversionModal .step {
+  text-align: center; }
+/* line 64, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.modal .clonePageModal .step, .modal .addNewPageModal .step, .modal .addNewVideoModal .step, .modal .addNewConversionModal .step {
+  background-color: #34393c !important;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  color: #ffffff !important; }
+/* line 71, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.modal .addNewPageModal .inline.field, .modal .clonePageModal .inline.field {
+  margin: 0 !important; }
+
+/* line 77, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.body--video-only #wrapper {
+  background: #f6f6f6 url('../images/checked_bg.png') repeat; }
+  /* line 80, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+  .body--video-only #wrapper #main {
+    position: absolute;
+    top: 50%;
+    margin: -259px auto 0 auto; }
+
+/* line 89, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.project-editor#main {
+  margin: 0;
+  padding: 53px 0 0 0; }
+/* line 94, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.project-editor #content {
+  position: relative; }
+/* line 100, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.project-editor.project-editor--sales-page iframe {
+  width: 100%;
+  height: 100%; }
+/* line 107, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.project-editor.project-editor--video-only #content {
+  text-align: center; }
+/* line 110, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.project-editor.project-editor--video-only iframe {
+  margin: 0 auto; }
+/* line 115, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.project-editor #sidebar {
+  top: 53px;
+  padding-bottom: 53px; }
+
+/* line 122, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.project-actions {
+  border-radius: 0px; }
+  /* line 124, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+  .project-actions label {
+    font-size: 12px;
+    padding: 4px 4px 4px 18px;
+    display: inline-block; }
+
+/* line 131, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.small-back {
+  display: block;
+  padding: 8px;
+  font-size: 12px; }
+
+/* line 137, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.project-options-fieldset {
+  margin-bottom: 10px; }
+
+/* line 143, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.preview-image-option img {
+  vertical-align: middle; }
+
+/* line 148, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+#imgPreviewContainer {
+  z-index: 1500;
+  border-radius: 6px;
+  padding: 15px;
+  border: none;
+  background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-color: #282828;
+  background-size: 16px 16px; }
+
+/* line 158, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.chart--lines {
+  width: 100%;
+  height: 300px; }
+
+/* line 163, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.author {
+  margin-left: 0px !important; }
+  /* line 166, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+  .author .ui.inline.dropdown {
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 20px; }
+
+/* line 174, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.stats-page .main-section .ui.segment:nth-child(1) {
+  border-top: 3px solid #0289D4;
+  border-radius: 0px !important;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1); }
+/* line 180, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.stats-page .main-section .ui.segment:nth-child(2) {
+  margin: 10px; }
+/* line 184, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.stats-page .ui.small.table.segment {
+  border-top: none !important; }
+/* line 188, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.stats-page .quick-stats td {
+  padding: 20px !important;
+  text-align: center;
+  font-size: 37px; }
+/* line 194, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.stats-page .quick-stats td strong {
+  font-size: 14px; }
+
+/* builder UI */
+/* line 201, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+#sidebar h1 {
+  color: #FFF;
+  font-weight: bold;
+  border-top: #38393b solid 2px;
+  border-bottom: #0289D4 solid 3px;
+  background-image: -webkit-gradient(linear, center top, center bottom, from(#484a4c), to(#38393b));
+  background-image: -webkit-linear-gradient(top, #484a4c, #38393b);
+  background-image: -moz-linear-gradient(top, #484a4c, #38393b);
+  background-image: -o-linear-gradient(top, #484a4c, #38393b);
+  background-image: -ms-linear-gradient(top, #484a4c, #38393b);
+  background-image: linear-gradient(to bottom, #484a4c, #38393b);
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+/* line 216, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.accordion {
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2); }
+
+/* line 222, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+li.active .head {
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  background-color: #028EDC;
+  background-image: -webkit-gradient(linear, center top, center bottom, from(#028edc), to(#0285cc));
+  background-image: -webkit-linear-gradient(top, #028edc, #0285cc);
+  background-image: -moz-linear-gradient(top, #028edc, #0285cc);
+  background-image: -o-linear-gradient(top, #028edc, #0285cc);
+  background-image: -ms-linear-gradient(top, #028edc, #0285cc);
+  background-image: linear-gradient(to bottom, #028edc, #0285cc); }
+
+/* line 235, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+li.active .head a {
+  color: #FFF !important; }
+
+/* line 239, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.admin-page {
+  color: #000; }
+
+/* line 243, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+ul.pagination {
+  display: inline-block; }
+  /* line 246, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+  ul.pagination li {
+    display: inline-block;
+    padding: 6px; }
+
+/*.ui.ribbon.label:after {
+    display: none;
+    */
+/* mark doesn't like the ribbon style I guess */
+/*
+}
+
+.ui.ribbon.label {
+    padding-left: 10px !important;
+    left: 0px !important;
+    border-radius: 4px !important;
+}
+
+.ui.orange.ribbon.label {
+    margin-right: 10px;
+}
+
+.ui.teal.ribbon.label {
+    margin-bottom: 10px;
+}*/
+/* dashboard icons */
+/* line 273, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.nav-controller a span {
+  font-size: 14px;
+  color: #3D3D3D; }
+
+/* line 278, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.nav-controller a {
+  opacity: 0.6; }
+
+/* line 282, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.nav-controller a:hover {
+  opacity: 1; }
+
+/* line 286, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.modal--content {
+  width: 100%; }
+
+/* line 292, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.appHeader {
+  background-color: #34393C;
+  padding: 15px 0px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2); }
+
+/* line 298, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.logo {
+  float: left;
+  width: 160px;
+  height: 37px;
+  overflow: hidden;
+  text-indent: -9999px;
+  background: url(//app.pressplay.io/images/logo.png) no-repeat;
+  margin: 0px; }
+
+/* line 308, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.appFooter .container {
+  border-top: 1px solid #DDD;
+  padding-top: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 12px; }
+
+/* line 317, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.appFooter .container a {
+  margin: 0px 10px; }
+
+/* line 321, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.appHeader .menu .item a {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px; }
+
+/* line 328, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.appHeader .menu .item:hover {
+  opacity: 1; }
+
+/* line 332, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.secondary.menu .link.item, .ui.secondary.menu .item {
+  opacity: 0.8;
+  position: relative; }
+
+/* line 337, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.secondary.menu .link.item:hover, .ui.secondary.menu .item:hover {
+  opacity: 1; }
+
+/* line 341, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.appHeader .menu .item.open-nav {
+  opacity: 1 !important; }
+
+/* line 345, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.appHeader .menu .item.open-nav .secondary-dropdown {
+  display: block !important; }
+
+/* line 349, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.appHeader .menu .item .secondary-dropdown {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 40px;
+  z-index: 999;
+  width: auto; }
+
+/* line 359, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.appHeader .menu .item .secondary-dropdown ul {
+  padding: 0;
+  margin: 0;
+  padding: 10px 15px;
+  background: #34393C;
+  border: 2px solid #FEFEFE;
+  border-radius: 4px;
+  z-index: 999;
+  position: relative; }
+
+/* line 370, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.secondary-dropdown > ul:before {
+  background: url("../images/menu-arrow.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  content: "";
+  display: block;
+  height: 12px;
+  position: absolute;
+  right: 15px;
+  top: -13px;
+  width: 15px; }
+
+/* line 381, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.appHeader .menu .item .secondary-dropdown ul > li {
+  list-style: none;
+  padding: 5px 10px;
+  margin: 0; }
+
+/* line 387, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.appHeader .menu .item .secondary-dropdown ul > li > a {
+  width: 100%;
+  display: inline-block; }
+
+/* line 392, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.appHeader .menu .item .secondary-dropdown ul > li > i {
+  color: #fff;
+  display: inline-block; }
+
+/* line 397, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.appHeader .menu .item .secondary-dropdown ul > li > i {
+  color: rgba(255, 255, 255, 0.6) !important; }
+
+/* line 402, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.appHeader .menu .item .secondary-dropdown ul > li:hover > a, .appHeader .menu .item .secondary-dropdown ul > li:hover > i {
+  color: #fff !important; }
+
+/* line 406, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.secondary.menu > .menu > .active.item a, .ui.secondary.menu > .active.item a {
+  color: white !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px; }
+
+/* line 413, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectFooter {
+  margin: 20px 0px; }
+
+/* line 418, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.sortProjects, .allProjects {
+  /*margin-top: 35px;*/ }
+
+/* line 422, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.allProjects {
+  border-top: 1px solid #DDD;
+  padding-top: 15px; }
+
+/* line 427, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.sortProjects {
+  background-color: #66B34E;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  background-image: url(//f.cl.ly/items/3E0t1M2Q2l2p0l2J0301/gridme-light.png);
+  color: #FFF; }
+
+/* line 437, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.sortProjects input {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  color: #FFF !important; }
+
+/* line 442, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.sortProjects input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6) !important; }
+
+/* line 446, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.sortProjects input:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.6) !important; }
+
+/* line 451, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.sortProjects input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.6) !important; }
+
+/* line 456, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.sortProjects input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6) !important; }
+
+/* line 460, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.icon.input > .icon {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 16px; }
+
+/* line 465, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.items > .row > .item, .ui.items > .item {
+  min-height: 10px;
+  border-bottom: 0px;
+  margin: 0em 0.5em 0.8em; }
+
+/* line 471, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectStatColumn {
+  text-align: center;
+  border-left: 2px solid #DDD; }
+
+/* line 476, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectStatColumn label {
+  font-size: 13px;
+  display: block;
+  font-weight: normal;
+  color: #A8A8A8; }
+
+/* line 483, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectStatAmount {
+  font-size: 32px;
+  /*font-weight: bold;*/
+  display: block;
+  text-align: center; }
+
+/* line 490, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.allProjects .column {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important; }
+
+/* line 495, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectActions {
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 0px;
+  border-top: 1px solid #f1f1f1;
+  width: auto; }
+
+/* line 503, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectFooter .menu {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  margin-top: 2px; }
+
+/* line 509, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectActions .button {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2); }
+
+/* line 513, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectActions .button:hover {
+  color: #FFF;
+  background-color: #FB742D !important;
+  /*background-image: -webkit-gradient(linear, center top, center bottom, from(#6eaf64), to(#58994e));
+    background-image: -webkit-linear-gradient(top, #6eaf64, #58994e);
+    background-image: -moz-linear-gradient(top, #6eaf64, #58994e);
+    background-image: -o-linear-gradient(top, #6eaf64, #58994e);
+    background-image: -ms-linear-gradient(top, #6eaf64, #58994e);
+    background-image: linear-gradient(to bottom, #6eaf64, #58994e);*/ }
+
+/* line 524, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.createNewBTN {
+  color: #FFF !important;
+  background-image: -webkit-gradient(linear, center top, center bottom, from(#6eaf64), to(#58994e)) !important;
+  background-image: -webkit-linear-gradient(top, #6eaf64, #58994e) !important;
+  background-image: -moz-linear-gradient(top, #6eaf64, #58994e) !important;
+  background-image: -o-linear-gradient(top, #6eaf64, #58994e) !important;
+  background-image: -ms-linear-gradient(top, #6eaf64, #58994e) !important;
+  background-image: linear-gradient(to bottom, #6eaf64, #58994e) !important;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2) !important; }
+
+/* line 535, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.createNewBTN:hover {
+  color: #FFF !important;
+  background-image: -webkit-gradient(linear, center top, center bottom, from(#58994E), to(#58994E)) !important;
+  background-image: -webkit-linear-gradient(top, #58994E, #58994E) !important;
+  background-image: -moz-linear-gradient(top, #58994E, #58994E) !important;
+  background-image: -o-linear-gradient(top, #58994E, #58994E) !important;
+  background-image: -ms-linear-gradient(top, #58994E, #58994E) !important;
+  background-image: linear-gradient(to bottom, #58994E, #58994E) !important;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2) !important; }
+
+/* line 546, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.allProjects .image {
+  position: relative;
+  cursor: pointer; }
+
+/* line 551, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.allProjects .image:hover .videoEditRollover {
+  display: block !important; }
+
+/* line 555, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.video-image {
+  background-color: #fff;
+  padding: 1px;
+  border: 1px solid #DDD;
+  width: 170px;
+  border-radius: 3px;
+  font-size: 0; }
+
+/* line 564, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.video-image img {
+  width: 100%;
+  height: 100%; }
+
+/* line 569, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.videoEditRollover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  margin-top: 0px !important;
+  padding-top: 17px !important;
+  color: #FFF;
+  -webkit-box-shadow: 0 0 0 2px rgba(110, 175, 100, 0.75);
+  -moz-box-shadow: 0 0 0 2px rgba(110, 175, 100, 0.75);
+  box-shadow: 0 0 0 2px rgba(110, 175, 100, 0.75);
+  /*display: none !important;*/
+  font-size: 16px !important; }
+  /* line 584, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+  .videoEditRollover.has_bg {
+    background-image: url('../images/project-list-img.png') \9;
+    background-position: -1px -1px\9;
+    background-color: #58994e;
+    background-color: rgba(88, 153, 78, 0.95); }
+  /* line 591, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+  * + html .videoEditRollover.has_bg {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    line-height: 13px !important;
+    background-position: 0px -1px;
+    font-size: 13px; }
+
+/* line 600, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+i.circular.icon {
+  -webkit-box-shadow: 0em 0em 0em 0.1em rgba(255, 255, 255, 0.8) inset;
+  box-shadow: 0em 0em 0em 0.1em rgba(255, 255, 255, 0.8) inset; }
+
+/* line 605, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.items > .row > .item, .ui.items > .item:hover {
+  cursor: default !important; }
+
+/* line 609, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.pagination.menu .item {
+  color: #A8A8A8; }
+
+/* line 613, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.videoTitle {
+  font-size: 18px;
+  display: block;
+  font-weight: bold; }
+
+/* line 619, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.videoUpdated {
+  display: block;
+  font-size: 12px;
+  color: #9c9c9c; }
+
+/* line 625, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.video-info-actions {
+  margin-left: 20px;
+  padding-top: 10px; }
+
+/* line 630, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.video-info-actions .buttons {
+  display: block; }
+
+/* line 634, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.video-image i {
+  font-size: 21px !important; }
+
+/* line 638, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.video-stats {
+  width: 500px;
+  padding-top: 10px; }
+
+/* line 643, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.video-stats .column {
+  /*padding: 0px 20px;*/ }
+
+/* line 647, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.video-listing, .email-integration-listing {
+  border-bottom: 1px solid rgba(221, 221, 221, 0.58);
+  padding-bottom: 15px;
+  padding-top: 15px;
+  cursor: default; }
+
+/* line 654, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.email-integration-info {
+  font-size: 15px;
+  font-weight: normal; }
+
+/* line 659, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.email-integration-connect {
+  color: #fff; }
+
+/* line 663, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectDashItem, .projectDashEmpty {
+  border-bottom: 2px solid rgba(221, 221, 221, 0.45);
+  padding-bottom: 15px;
+  padding-top: 15px;
+  cursor: pointer; }
+
+/* line 670, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectDashEmpty, .projectDashEmpty .projectInfo {
+  border: 0;
+  text-align: center;
+  padding-top: 10px; }
+
+/* line 676, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectDashEmpty .projectSubTitle {
+  cursor: default;
+  color: #9c9c9c; }
+
+/* line 681, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectDashEmpty .createNewBTN {
+  margin: 35px 0 0 0;
+  padding: 20px !important;
+  width: 300px !important;
+  font-size: 18px !important; }
+
+/* line 688, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectDashEmpty .createNewBTN {
+  margin: 35px 0 0 0;
+  padding: 20px !important;
+  width: 300px !important;
+  font-size: 18px !important; }
+
+/* line 695, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectDashEmpty .createNewBTN > i {
+  font-size: 18px !important;
+  padding-top: 20px !important; }
+
+/* line 700, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectInfo {
+  border-left: 3px solid rgba(0, 0, 0, 0.1);
+  padding-left: 15px; }
+
+/* line 705, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectDashItem:hover .projectInfo {
+  border-left: 3px solid #0468AE; }
+
+/* line 709, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectDashItem:hover .projectTitle a {
+  color: #0468AE; }
+
+/* line 715, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectTitle .icon {
+  display: none; }
+/* line 719, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectTitle:hover .icon {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* line 725, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectTitle a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0468AE;
+  display: inline-block; }
+
+/* line 732, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectTitle a:hover {
+  text-decoration: none;
+  color: #0468AE; }
+
+/* line 737, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectCount {
+  text-align: center;
+  padding: 9px 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  border: 1px solid #DDD; }
+
+/* line 745, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectCountTotal {
+  font-size: 18px; }
+
+/* line 749, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectCountLabel {
+  font-size: 12px;
+  color: #7c7c7c; }
+
+/* line 754, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.secondary.menu {
+  margin: 3px 0 0 0;
+  padding: 0; }
+
+/* line 759, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.secondary.menu li {
+  cursor: pointer; }
+
+/* line 763, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.secondary.menu li a:hover {
+  text-decoration: none; }
+
+/* line 767, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.secondary.menu .link.item:hover a, .ui.secondary.menu a.item:hover a {
+  opacity: 1; }
+
+/* line 771, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.dashboardRightside {
+  padding: 20px 20px;
+  padding-top: 15px; }
+
+/* line 776, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.questions a {
+  font-size: 18px; }
+
+/* line 780, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.questions .sub {
+  font-size: 12px; }
+
+/* line 784, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.questions .description {
+  font-size: 12px; }
+
+/* line 788, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.sortTypesBTN .button {
+  background-color: #34393C;
+  color: #FFF;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2); }
+
+/* line 797, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.sortTypesBTN .button.positive, .sortTypesBTN .button.positive:hover, .sortTypesBTN .button:hover, .addNewBTN {
+  background-color: #FB742D !important;
+  color: #FFF !important; }
+
+/* line 802, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.statsDateRange input {
+  width: 100px !important;
+  display: block !important; }
+
+/* line 807, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.statInputSep {
+  display: block;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 10px; }
+
+/* line 814, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.statsDateRange .button {
+  background-color: #34393C !important;
+  color: #FFF !important;
+  margin-left: 15px;
+  margin-top: 2px;
+  opacity: 0.5; }
+
+/* line 822, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.statsDateRange .button:hover {
+  opacity: 1; }
+
+/* line 826, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.statsTopBlock {
+  margin-top: 20px !important; }
+
+/* line 830, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.statsTopBlock .row {
+  width: 100% !important; }
+
+/* line 834, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.statsTopBlock .projectStatColumn {
+  border-left: 0px; }
+
+/* line 838, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.statsTopBlock label {
+  margin-top: 10px; }
+
+/* line 842, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.statBlock {
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 0 1px #DDD;
+  box-shadow: 0 0 0 1px #DDD;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px; }
+
+/* line 859, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.clonePageModal .header, .addNewVideoModal .header, .addNewPageModal .header, .addNewProjectModal .header, .addNewConversionModal .header, .addNewEITabModal .header, .addNewEIModal .header, .clonePageModal .header {
+  /*background-color: #34393C;*/
+  background-color: #66B34E;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  background-image: url(//f.cl.ly/items/3E0t1M2Q2l2p0l2J0301/gridme-light.png);
+  color: #FFF; }
+
+/* line 869, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.addNewVideoModal .ui.form .field, .addNewProjectModal .ui.form .field, .clonePageModal .ui.form .field {
+  margin: 0; }
+
+/* line 873, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.modal {
+  border: none !important; }
+
+/* line 881, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.clonePageModal .step, .addNewPageModal .step, .addNewVideoModal .step, .clonePageModal .step, .addNewConversionModal .step {
+  background-color: #34393C !important;
+  color: #FFF !important;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2); }
+
+/* line 891, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.clonePageModal .step, .addNewPageModal .step, .addNewVideoModal .step, .clonePageModal .step, .addNewConversionModal .step {
+  text-align: center; }
+
+/* line 895, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.steps .step.active:after, .ui.active.steps:after {
+  background-color: #FB742D; }
+
+/* line 899, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.steps .step.active, .ui.active.step {
+  background-color: #FB742D !important; }
+
+/* line 903, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.steps .disabled.step:after, .ui.disabled.step:after {
+  background-color: #34393C !important; }
+
+/* line 907, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.step:after, .ui.steps .step:after {
+  -webkit-box-shadow: -1px -1px 0 0 rgba(255, 255, 255, 0.15) inset;
+  box-shadow: -1px -1px 0 0 rgba(255, 255, 255, 0.15) inset; }
+
+/*******************************
+      CSS UPDATES - JULY 8
+*******************************/
+/* line 916, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.pull-left.projectInfo {
+  width: 100%; }
+
+/* line 920, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectContent .video-stats .ui.three.column.grid {
+  width: 100%;
+  margin-right: 0;
+  float: right; }
+
+/* line 926, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectContent .video-stats .column {
+  border: 0 none !important; }
+
+/* line 930, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectContent {
+  border-top: 1px solid rgba(221, 221, 221, 0.58);
+  display: none;
+  margin-top: 10px;
+  padding: 0;
+  width: 100%;
+  padding: 0px 15px 0;
+  background: none repeat scroll 0 0 #f7f7f8;
+  border: 1px solid #ddd; }
+
+/* line 941, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectContent.open {
+  display: inline-block; }
+
+/* line 945, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectDashItem.active > .projectInfo {
+  border-left: 3px solid #0468ae; }
+
+/* line 949, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectTitle > a {
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none; }
+
+/* line 958, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectContent .content.video-stats.pull-right {
+  width: 30%;
+  position: relative;
+  top: 18px; }
+
+/* line 964, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.pull-right.projectCount {
+  position: absolute;
+  right: 0;
+  top: 10px; }
+
+/* line 970, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectDashItem {
+  position: relative; }
+
+/* line 974, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectContent .projectStatAmount {
+  font-size: 15px; }
+
+/* line 978, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectCount.pages {
+  right: 90px; }
+
+/* line 982, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectMiniAddPage .ui.buttons .button:first-child {
+  border-bottom-left-radius: 0.25em;
+  border-top-left-radius: 0.25em;
+  margin-left: 0; }
+
+/* line 988, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectMiniAddPage .ui.buttons .button, .ui.button {
+  font-size: 0.85rem; }
+
+/* line 992, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectMiniAddPage {
+  position: absolute;
+  right: 190px;
+  top: 28px; }
+
+/* line 998, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectMiniAddPage .ui.icon.buttons .button, .ui.icon.button {
+  padding: 0.7em; }
+
+/* line 1002, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectMiniAddPage .ui.buttons .button, .ui.button {
+  font-size: 0.85rem; }
+
+/* line 1006, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectMiniAddPage .or {
+  position: relative;
+  top: -4.5px; }
+
+/* line 1011, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.buttons.auto-width {
+  width: auto !important; }
+
+/* line 1015, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.important {
+  background: none repeat scroll 0 0 #e74c3c;
+  border-radius: 5px;
+  color: white;
+  float: right;
+  font-size: 0.8125rem;
+  line-height: 18px !important;
+  padding: 5px 10px;
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  width: 190px !important; }
+
+/* line 1029, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.inline.field {
+  position: relative; }
+
+/* line 1033, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.button.tiny > a {
+  font-size: 0.9em;
+  color: #808080; }
+
+/* line 1038, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.button.tiny:hover > a {
+  text-decoration: none;
+  color: #fff; }
+
+/* line 1043, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.membership-level {
+  font-weight: 300; }
+
+/* line 1047, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.attached.message.myaccount {
+  background: #34393C;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+  color: white; }
+
+/* line 1053, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.myaccount {
+  margin-top: 20px !important; }
+
+/* line 1057, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.addNewConversionModal {
+  width: 805px !important; }
+
+/* line 1061, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.modal.pp-modal {
+  width: 800px;
+  margin-left: -400px; }
+
+/* line 1066, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.email-integration-info {
+  padding: 6px 0; }
+
+/* line 1071, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.connect-btn a, .connected-btn a {
+  color: #fff;
+  text-decoration: none; }
+
+/* line 1076, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.connected-btn:hover .hidden.content {
+  visibility: visible !important;
+  display: block !important; }
+
+/* line 1081, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.connected-btn:hover {
+  background: #E75859 !important; }
+
+/* line 1085, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.email-integration-listing .checkbox-container {
+  display: inline-block;
+  background-color: #FAFAFA;
+  padding: 7px 10px 6px;
+  margin-left: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.05)));
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
+  border-radius: 0.25em;
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08) inset;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08) inset;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-transition: opacity 0.25s ease, background-color 0.25s ease, color 0.25s ease, background 0.25s ease, -webkit-box-shadow 0.25s ease;
+  -moz-transition: opacity 0.25s ease, background-color 0.25s ease, color 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+  transition: opacity 0.25s ease, background-color 0.25s ease, color 0.25s ease, background 0.25s ease, box-shadow 0.25s ease; }
+
+/* line 1111, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.email-integration-listing .checkbox-container .ui.toggle.checkbox {
+  padding: 0px;
+  margin: 0; }
+
+/* line 1116, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.email-integration-listing .checkbox-container label {
+  font-size: 12px; }
+
+/* line 1120, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ei-list .projectContent {
+  display: block !important; }
+
+/* line 1124, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ei-list .projectInfo {
+  border-left: 3px solid #0468AE; }
+
+/* line 1128, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.antiscroll-inner li {
+  display: inline-block; }
+
+/* line 1132, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+@media (min-width: 768px) {
+  /* line 1140, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+  .container {
+    width: 750px; }
+ }
+
+@media (min-width: 992px) {
+  /* line 1146, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+  .container {
+    width: 970px; }
+ }
+
+@media (min-width: 1200px) {
+  /* line 1152, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+  .container {
+    width: 1170px; }
+ }
+
+/* line 1157, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.clear-both {
+  clear: both;
+  width: 100%; }
+
+/* line 1162, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.pull-right {
+  float: right !important; }
+
+/* line 1166, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.pull-left {
+  float: left !important; }
+
+/* line 1171, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.video-listing * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 1177, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.projectDashItem * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 1186, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.form--project-create .ui.four.stackable.items {
+  margin-top: -5px; }
+/* line 1189, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.form--project-create .ui.four.items > .item {
+  width: 49% !important; }
+/* line 1194, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.form--project-create .ui.items .item > .image {
+  display: block;
+  float: left !important;
+  max-height: 160px !important;
+  overflow: hidden;
+  width: 100%; }
+/* line 1201, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.form--project-create .ui.items .item > .content {
+  float: left;
+  padding: 10px;
+  position: relative;
+  width: 100%; }
+/* line 1208, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.form--project-create .ui.four.stackable.items {
+  height: 450px !important;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 5px 20px 5px 5px; }
+/* line 1216, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.form--project-create .modal--step .ui.button {
+  font-size: 12px; }
+/* line 1219, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.form--project-create .modal--step .or {
+  top: -5px !important; }
+/* line 1222, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.form--project-create .modal--step .ui.buttons {
+  bottom: 1px;
+  position: absolute;
+  right: 0; }
+/* line 1230, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.form--project-create .ui.items .item > .content > .name {
+  font-size: 16px;
+  position: relative;
+  padding: 0;
+  top: 5px; }
+/* line 1236, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.form--project-create .ui.items .item > .content > .description {
+  border-top: 1px dashed;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 7px;
+  padding-bottom: 0px;
+  padding-top: 5px; }
+/* line 1245, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.form--project-create .ui.items > .row > .item {
+  margin: 0 0.5% 0.5em !important; }
+
+/* line 1251, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.items > .item {
+  margin: 0 0.5% 0.5em !important; }
+
+/* line 1255, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.livepre {
+  magin: 0 !important;
+  padding: 0 !important; }
+
+/* line 1260, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.item.livepre img {
+  float: right;
+  width: 85%; }
+
+/* line 1265, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.page .fullimage img {
+  width: 100%;
+  height: auto; }
+
+/* line 1269, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.dimmer {
+  background-color: rgba(0, 0, 0, 0.55) !important; }
+
+/* line 1273, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.ui.right.labeled.icon.button.remind-later, .ui.right.labeled.icon.button.dont-show {
+  padding-left: 20px !important;
+  padding-right: 20px !important; }
+
+/* line 1278, /home/snayps/webapps/pressplay.templates.local/public/css/fixes.scss */
+.notification_message {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  padding: 10px;
+  margin-bottom: 17px !important;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+
+/*# sourceMappingURL=fixes.css.map */

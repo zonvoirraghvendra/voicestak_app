@@ -1,0 +1,114 @@
+/* USER MANAGEMENT - CSS */
+
+.usermanagement {
+  width: 100%;
+  margin: 0;
+  cursor: default;
+}
+
+.usermanagement th {
+  text-align: left;
+  background-color: #75BA60;
+  padding: 15px 20px;
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.usermanagement th:first-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.usermanagement td {
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.usermanagement td:last-child {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.usermanagement td:first-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+}
+
+.modal select {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.3125em;
+  box-shadow: 0 0 rgba(0, 0, 0, 0.3) inset;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1em;
+  margin: 0;
+  outline: 0 none;
+  padding: 0.65em 1em;
+  transition: background-color 0.3s ease-out 0s, box-shadow 0.2s ease 0s, border-color 0.2s ease 0s;
+}
+
+.addNewStaffModal .header,
+.addNewClientModal .header,
+.editProjectModal .header {
+/* background-color: #34393C; */
+background-color: #66B34E;
+border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+background-image: url(http://f.cl.ly/items/3E0t1M2Q2l2p0l2J0301/gridme-light.png);
+color: #FFF;
+}
+
+.addNewStaffModal .step,
+.addNewClientModal .step,
+.editProjectModal .step {
+background-color: #34393C !important;
+color: #FFF !important;
+border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.email-um {
+  display: inline-block;
+  margin: 0 5px;
+  width: 40px;
+  height: auto;
+  float: left;
+  position: relative;
+}
+
+.email-um img {
+  width: 100%;
+  height: auto;
+  max-height: 40px;
+}
+
+.um-controller-count {
+  right: 0px !important;
+  left: auto;
+}
+
+.um-controller-button {
+  right: 100px !important;
+  left: auto;
+}
+
+.um-delete {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  display: none;
+}
+
+.email-um:hover .um-delete {
+  display: block !important;
+}
+
+.um-delete a {
+  color: #E0572A;
+  font-size: 21px;
+  line-height: 40px;
+}
